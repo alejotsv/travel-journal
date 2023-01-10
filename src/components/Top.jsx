@@ -1,7 +1,8 @@
 import React from 'react';
 import globe from '../assets/globe.png';
 
-const Top = () => {
+const Top = (props) => {
+  console.log(props);
   return(
     <header className='header-rectangle'>
       <div className='header-group'>
