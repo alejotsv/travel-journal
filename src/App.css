@@ -22,3 +22,12 @@
   color: #FFFFFF;
   margin-left: 1%;
 }
+
+.card {
+  padding: 5%;
+  display: flex;
+}
+
+.destination-content {
+  margin-left: 5%;
+}

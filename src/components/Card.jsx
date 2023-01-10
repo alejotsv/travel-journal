@@ -11,12 +11,14 @@ const Card = (props) => {
 
   return(
     <div className='card'>
-      <img src={`../../public/${img}`} alt='this place' height='225' width='325'/>
-      <h3>{country}</h3>
-      <a href={map_link} target='blank' >View on Google Maps</a>
-      <h2>{place}</h2>
-      <h3>{date.start} - {date.end}</h3>
-      <p>{description}</p>
+      <img src={`../../public/${img}`} alt='this place' height='225' width='300'/>
+      <div className='destination-content'>
+        <h3>{country}</h3>
+        <a href={map_link} target='blank' >View on Google Maps</a>
+        <h2>{place}</h2>
+        <h3>{date.start} - {date.end}</h3>
+        <p>{description}</p>
+      </div>
     </div>
   )
 }
