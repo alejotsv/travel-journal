@@ -15,7 +15,7 @@ const Card = (props) => {
       <img src={`../../public/${img}`} alt='this place' height='225' width='300'/>
       <div className='destination-content'>
         <div className='location'>
-          <h3>{country}</h3>
+          <h3>{country}</h3>          
           <a href={map_link} target='blank' >View on Google Maps</a>
         </div>
         <h2>{place}</h2>
