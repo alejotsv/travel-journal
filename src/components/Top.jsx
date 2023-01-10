@@ -1,9 +1,13 @@
 import React from 'react';
+import globe from '../assets/globe.png';
 
 const Top = () => {
   return(
-    <header>
-      my travel journal.
+    <header className='header-rectangle'>
+      <div className='header-group'>
+        <img src={globe} width='24px'/>
+        <span className='header-text'>my travel journal.</span>
+      </div>
     </header>
   )
 }

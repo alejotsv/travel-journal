@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+.header-rectangle {
+  background: rgba(245, 90, 90, 1);  
+  height: 55px;
+}
+
+.header-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;  
+}
+
+.header-text {  
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-left: 1%;
+}
