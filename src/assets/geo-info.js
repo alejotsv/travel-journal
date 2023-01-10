@@ -2,18 +2,20 @@ const geoinfo = [
   {
     "id": 1,
     "country": "Japan",
-    "map_link": "https://bit.ly/3CAp75N",
+    "map_link": "https://bit.ly/3CAp75N", 
+    "img": "mountfuji.jpg",   
     "place": "Mount Fuji",
-    "date": [
-      { "start": "12 Jan, 2021" },
-      { "end": "24 Jan, 2021" }
-    ],
+    "date": {
+      "start": "12 Jan, 2021",
+      "end": "24 Jan, 2021"
+    },
     "description": "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
   },
   {
     "id": 2,
     "country": "Australia",
     "map_link": "https://bit.ly/3CYH26r",
+    "img": "operahouse.jpg",
     "place": "Sydney Opera House",
     "date": [
       { "start": "27 May, 2021" },
@@ -25,6 +27,7 @@ const geoinfo = [
     "id": 3,
     "country": "Norway",
     "map_link": "https://bit.ly/3CAnrsO",
+    "img": "geirangerfjord.jpg",
     "place": "Geirangerfjord",
     "date": [
       { "start": "1 Oct, 2021" },
